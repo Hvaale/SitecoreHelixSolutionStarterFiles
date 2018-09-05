@@ -1,0 +1,10 @@
+{
+	"__comment": "This configuration file is used for build-and-deploy command. Type 'build-and-deploy' in package manage console. To run unicorn: 'build-and-deploy unicorn'",
+    "config": {
+        "msBuildExe": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\MSBuild\\15.0\\Bin\\msbuild.exe",
+        "unicornScript": "src\\Foundation\\Serialization\\code\\UnicornSync\\UnicornSync.ps1",
+        "appPoolName": "xxx",
+        "siteUrl": "xxx",
+        "nugetRestore": true
+    }
+}
